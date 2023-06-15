@@ -1,6 +1,6 @@
 /**
  * @file
- * test2 behaviors.
+ * MODULE_NAME behaviors.
  */
 
 (function ($, Drupal) {
@@ -12,9 +12,7 @@
    */
   Drupal.behaviors.MODULE_NAME = {
     attach: function (context, settings) {
-
       console.log('It works!');
-
     }
   };
 
